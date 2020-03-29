@@ -36,3 +36,30 @@
     transform: rotate(360deg);
   }
 }
+
+.max-width{
+  width: 100%;
+  height: 100%;
+  align-self: stretch;
+  margin-bottom: auto;
+}
+
+.curved-border{
+  border-radius: 10px;
+  border: solid;
+  border-color: #61dafb;
+  overflow: hidden;
+}
+
+#dashboard{
+  width: 25%;
+  height: 100%;
+}
+
+#main-content{
+  width: 55%;
+}
+
+#other-projects {
+  width: 15%; /*TODO: border radius will wrap around if everything adds up to 100%*/
+}
