@@ -1,6 +1,6 @@
 import React from 'react';
 import VisceraImage from '../images/Viscera.png';
-import './ProjectCard.css'
+import './ProjectCard.css';
 
 export default class ProjectCard extends React.Component {
     constructor(props) {
@@ -10,9 +10,11 @@ export default class ProjectCard extends React.Component {
 
     render() {
         return (
-            <div className="padding">
-                <div className="border">
-                    <img src={VisceraImage}></img>
+            <div className="card">
+                <div className="border tint">
+                    <img
+                        src={VisceraImage}>
+                    </img>
                 </div>
             </div>
         );

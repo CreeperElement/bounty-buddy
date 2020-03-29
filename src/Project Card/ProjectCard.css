@@ -1,5 +1,9 @@
 img {
+    filter: grayscale(50%);
+    margin-bottom: 0px;
+    height: 100%;
     width: 100%;
+    overflow: hidden;
 }
 
 .border{
@@ -9,6 +13,13 @@ img {
     overflow: hidden;
   }
 
-  .padding{
+  .card{
     padding: 5%;
+    height: 20%;
+    width: 90%;
+    overflow: hidden;
+  }
+
+  .tint {
+      height: 100%;
   }
