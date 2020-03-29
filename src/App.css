@@ -44,11 +44,9 @@
   margin-bottom: auto;
 }
 
-.height{
+.height-fill{
   height: 100vh;
 }
-
-
 
 .curved-border{
   border-radius: 15px;
@@ -56,6 +54,10 @@
   border-color: #61dafb;
   overflow: hidden;
   height: 98%;
+}
+
+.scroll {
+  overflow: auto;
 }
 
 #dashboard{
@@ -72,4 +74,5 @@
 #other-projects {
   width: 25%; /*TODO: border radius will wrap around if everything adds up to 100%*/
   margin-right: 0px;
+  height: 100%;
 }

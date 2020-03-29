@@ -3,12 +3,13 @@ import logo from './logo.svg';
 import './App.css';
 import {PayPalButton} from 'react-paypal-button-v2';
 import {Col, Row} from 'react-flexbox-grid';
+import ProjectCard from './Project Card/ProjectCard';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Row className='max-width height' >
+        <Row className='max-width height-fill scroll' >
           <Col id='dashboard' className="max-height">
             <div className='curved-border'>Hello there.</div>
           </Col>
@@ -16,12 +17,13 @@ function App() {
             <div className='curved-border'>My name is! Who?</div>
           </Col>
           <Col id='other-projects'>
-            <div className='curved-border'>
-            <PayPalButton
-              client-id="sb"
-              amount = "5.00"
-              currency = "USD"
-            />
+            <div className='curved-border scroll'>
+              <ProjectCard/>
+              <ProjectCard/>
+              <ProjectCard/>
+              <ProjectCard/>
+              <ProjectCard/>
+              <ProjectCard/>
             </div>
           </Col>
         </Row>
@@ -31,3 +33,12 @@ function App() {
 }
 
 export default App;
+
+
+/*
+<PayPalButton
+    client-id="sb"
+    amount = "5.00"
+    currency = "USD"
+    />
+*/
