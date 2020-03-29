@@ -8,23 +8,23 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Row className='max-width'>
-          <Col id='dashboard' className='curved-border'>
-            Hello there.
+        <Row className='max-width height' >
+          <Col id='dashboard' className="max-height">
+            <div className='curved-border'>Hello there.</div>
           </Col>
-          <Col id='main-content' className='curved-border'>
-            My name is! Who?
+          <Col id='main-content'>
+            <div className='curved-border'>My name is! Who?</div>
           </Col>
-          <Col id='other-projects' className='curved-border'>
-            Slim Shady
+          <Col id='other-projects'>
+            <div className='curved-border'>
+            <PayPalButton
+              client-id="sb"
+              amount = "5.00"
+              currency = "USD"
+            />
+            </div>
           </Col>
         </Row>
-
-      <PayPalButton
-        client-id="sb"
-        amount = "5.00"
-        currency = "USD"
-      />
       </header>
     </div>
   );
