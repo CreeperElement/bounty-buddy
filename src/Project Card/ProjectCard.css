@@ -9,13 +9,13 @@ img {
 .border{
     border-radius: 15px;
     border: solid;
-    border-color: #61dafb;
+    border-color: #2800b8;
     overflow: hidden;
   }
 
   .card{
     padding: 5%;
-    height: 20%;
+    height: 20vh;
     width: 90%;
     overflow: hidden;
   }
