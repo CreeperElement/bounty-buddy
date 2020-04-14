@@ -37,6 +37,10 @@
   }
 }
 
+.header {
+  height: 15%;
+}
+
 .max-width{
   width: 100%;
   align-self: stretch;
@@ -54,17 +58,24 @@
   border: none;
 }
 
-.scroll {
-  overflow: auto;
+.stretch-vertical {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
 
-.colum-main-conent {
-  height: 85%;
+.scroll {
+  overflow-y: scroll;
+}
+
+#project-cards {
+  height: 80%;
 }
 
 #dashboard{
   width: 25%;
   background-image: radial-gradient(circle, rgba(92, 0, 86, 0.61), rgba(255,0,0,0));
+  height: 100vh;
 }
 
 #main-content{
@@ -72,10 +83,12 @@
   padding-right: .5%;
   width: 48%;
   background-image: radial-gradient(circle, rgba(92, 0, 86, 0.61), rgba(255,0,0,0));
+  height: 100vh;
 }
 
 #other-projects {
   width: 25%; /*TODO: border radius will wrap around if everything adds up to 100%*/
   margin-right: 0px;
   background-image: radial-gradient(circle, rgba(92, 0, 86, 0.61), rgba(255,0,0,0));
+  height: 100vh;
 }
