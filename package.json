@@ -11,6 +11,7 @@
     "paypal-checkout-components": "^4.1.35",
     "react": "^16.13.0",
     "react-bootstrap": "^1.0.0-beta.17",
+    "react-burger-menu": "^2.6.13",
     "react-dom": "^16.13.0",
     "react-flexbox-grid": "^2.1.2",
     "react-native": "^0.62.0",

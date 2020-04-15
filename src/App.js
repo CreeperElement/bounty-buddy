@@ -4,17 +4,14 @@ import './App.css';
 import {PayPalButton} from 'react-paypal-button-v2';
 import {Col, Row} from 'react-flexbox-grid';
 import ProjectCard from './Project Card/ProjectCard';
+import SideBar from './sidebar/SideBar';
 
 function App() {
   return (
     <div className="App height-fill">
+     <SideBar/>
       <header className="App-header height-fill">
         <Row className='max-width height-fill' >
-          <Col id='dashboard' className="curved-border" >
-            <div>
-                <h1>Account</h1>
-            </div>
-          </Col>
           <Col id='main-content' className="curved-border" >
             <div className="header">
                 <h1>Details</h1>

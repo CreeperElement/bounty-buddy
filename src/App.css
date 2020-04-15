@@ -72,16 +72,10 @@
   height: 80%;
 }
 
-#dashboard{
-  width: 25%;
-  background-image: radial-gradient(circle, rgba(92, 0, 86, 0.61), rgba(255,0,0,0));
-  height: 100vh;
-}
-
 #main-content{
   padding-left: .5%;
   padding-right: .5%;
-  width: 48%;
+  width: 73%;
   background-image: radial-gradient(circle, rgba(92, 0, 86, 0.61), rgba(255,0,0,0));
   height: 100vh;
 }
